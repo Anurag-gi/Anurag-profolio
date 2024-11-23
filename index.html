@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: rgb(0, 0, 33);
+      color: white;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: rgb(19, 19, 92);
+      height: 97px;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .left {
+      font-size: 2rem;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+      font-size: 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .text-grey {
+      color: grey;
+    }
+
+    nav ul li a:hover {
+      color: lavender;
+      font-size: 1.0 rem;
+    }
+
+    .firstsection {
+      display: flex;
+      justify-content: center;
+      margin: 50px 0;
+    }
+
+    .leftsection {
+      font-size: 3rem;
+      margin: 70px 0;
+
+    }
+
+    .rightsection {}
+
+    .firstsection div {
+      width: 30%;
+    }
+
+    .rightsection div {
+      height: 300px;
+      width: 400px;
+    }
+
+    img {
+      height: 300px;
+      width: 400px;
+    }
+
+    .purple {
+      color: blueviolet;
+    }
+
+    #element {
+      color: lavender;
+    }
+
+    .secondsection {
+      max-width: 80vw;
+      margin: 60px 40px;
+      height: 80vh;
+
+    }
+
+    .box {
+      background-color: white;
+      width: 80vw;
+      height: 2px;
+      margin: 56px 0;
+    }
+
+    .secondsection .vertical {
+      height: 93px;
+      width: 1px;
+      display: flex;
+      background-color: white;
+      margin: 0 100px;
+    }
+
+    .vertical-title {
+      position: relative;
+      padding: 30px;
+      font-size: 30px;
+      font-style: italic;
+      font-weight: 100;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .hcl{
+      padding: 10px;
+      color: darkblue;
+    }
+    .desc {
+      padding: 30px;
+      color: brown;
+    }
+    footer{
+      background-color: #0e0e1a;
+     
+
+    }
+    .footer{
+      display: flex;
+      padding: 20px 122px;
+      justify-content: space-evenly;
+
+    }
+    .footer ul{
+       list-style: none;
+    }
+    footer > div{
+      width: 223px;
+    }
+    footer .footer-rights{
+      padding: 12px;
+      text-align: center;
+       margin-left: 500px;
+    }
+    footer .footer-first{
+      margin: 10px;
+    }
+    footer .footer-Second{
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Anurag's Portfolio</div>
+      <div class="right">
+        <ul>
+          <a href="/">
+            <li>Home
+          </a></li>
+          <a href="/">
+            <li>About
+          </a></li>
+          <a href="/">
+            <li>Services
+          </a></li>
+          <a href="/">
+            <li>Projects
+          </a></li>
+          <a href="/">
+            <li>Contact Me
+          </a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <section class="firstsection">
+
+      <div class="leftsection">
+        Hii, My Name is <span class="purple">Anurag</span>
+        <div>And I am a Passionate &</div>
+        <div>Web Developer</div>
+        <span id="element"></span>
+      </div>
+      <div class="rightsection">
+        <img src="web-developer-illustration-2005x2048-fal2biag.png" alt="">
+      </div>
+
+  </main>
+  
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Database Developer', 'Frontend Developer'],
+      typeSpeed: 50,
+    });
+
+
+  </script>
+  <hr color="blueviolet">
+  <section class="secondsection">
+    <span class="text-grey">What I Have Done so Far</span>
+    <h1 style="font-size: 1.9rem;">Work Experience</h1>
+    <div class="box">
+      <div class="vertical">
+        <img class="image-top" src="developer.jfif" alt="">
+        <div class="vertical-title">
+          Process Associate <br>
+          <div class="hcl">HCLTech</div>
+        </div>
+
+        <div class="desc"><h1>Working on citrics</h1><br>
+        <h1>Handling Customer Queries</h1>
+      <h1>Placing Order for the customer</h1>
+        <h1>Email Ethics</h1></div>
+      </div>
+      <div class="vertical"></div>
+      <div class="vertical"></div>
+      <div class="vertical"></div>
+    </div>
+  </section>
+
+  </section>
+  <footer>
+    <div class="footer">
+    <div class="footer-first">
+      <h3>ContactMe:</h3>    </div>
+    <div class="footer-Second">
+<ul>
+  <li>8840457670</li>
+  <li>ak3602632@gmail.com</li>
+  <li><button><img style="height: 22px;width: 22px;" src="link.jfif" alt=""><link rel="stylesheet" href="https://www.linkedin.com/in/anurag-kashyap-354578236/"></button></li>
+  <li></li>
+
+</ul>
+   
+  </div>
+  <div class="footer-rights">
+    <h3>www.Anuragportfolio.com | All rights reserved</h3>
+  </div>
+  </footer>
+ 
+</body>
+
+</html>
